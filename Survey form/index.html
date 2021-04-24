@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap" rel="stylesheet">
+    <title>Survey form</title>
+  </head>
+  <body class="body">
+    <div class="conteiner">
+  <header class="header">
+    <h1 id="title">Registrazione Newsletter</h1>
+    <p id="description">Compila i seguenti campi per iscriverti alla newsletter:</p>
+  </header>
+      <form action="" id="surveyform">
+        <div class="form-group">
+        <label for="" id="name-label">
+          Nome
+          <br>
+          <input type="text" id="name" name="" value="" class="input" placeholder="Insersci nome" required>
+        </label>
+        </div>
+        <div class="form-group">
+        <label for="" id="email-label">
+          Email
+          <br>
+          <input type="email" id="email" name="" value="" class="input" placeholder="Inserisci email" required>
+        </label>
+        </div>
+        <div class="form-group">
+        <label for="" id="number-label">
+          Età
+          <br>
+          <input type="number" id="number" class="input" name="" value="" min="14" max="65" placeholder="Inserisci la tua età" required>
+        </label>
+        </div>
+        <div class="form-group">
+        <label for="" id="dropdown">
+          Come ci hai conosciuti?
+          <br>
+          <select name="" id="choose" class="input">
+            <option value="">Tramite il nostro sito</option>
+            <br>
+            <option value="">Tramite amici</option>
+            <br>
+            <option value="">Tramite i social</option>
+          </select>
+        </label>
+        </div>
+        <div class="form-group">
+        <label for="" id="radio-label">
+          Raccomanderesti la nostra newsletter a un amico:
+          <br>
+          <input type="radio" id="radio" name="radio">Si
+          <br>
+          <input type="radio" id="radio" name="radio">No
+          <br>
+            <input type="radio" id="radio" name="radio">Forse
+        </label>
+        </div>
+        <div class="form-group">
+        <label for="" id="checkbox-label">
+          Quali mail vorresti ricevere?
+          <br>
+          <input type="checkbox" id="checkbox" value="Messaggi">Messaggi promozionali
+          <br>
+          <input type="checkbox" id="checkbox" value="Nuovi">Presenza di nuovi corsi
+          <br>
+          <input type="checkbox" id="checkbox" value="Nessuna">Nessuna delle due
+          <br>
+        </label>
+        </div>
+        <div class="form-group">
+        <label for="" id="textare-label">
+          Dicci vorresti ricevere nelle mail più nello specifico:
+          <br>
+          <textarea name="" id="text" rows="4" cols="50""></textarea>
+        </label>
+        </div>
+        <div class="form-group">
+        <button id="button" type="submit" name="button" class="btn">Invia</button>
+        </div>
+      </form>
+    </div>
+
+
+
+  </body>
+</html>
